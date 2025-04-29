@@ -94,3 +94,39 @@ header img{
     font-weight: 700;
     border: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #616668;
+      padding: 3rem;
+      color: #fbffcd;
+      text-align: center;
+      line-height: 26px; 
+  }
+
+  footer a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fbffcd;
+    
+}
