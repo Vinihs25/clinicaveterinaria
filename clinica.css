@@ -188,13 +188,18 @@ footer{
         display: none;
     }
     
-    .hamburguer{
+    @media (max-width: 768px) {
+    .hamburguer {
         display: flex;
-        padding: 0.3rem;
-        background: transparent;
-        color: white;
-        font-size: 1.5rem;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
     }
+
+}
+    
+
     
     footer{
         flex-direction: column;
