@@ -38,6 +38,11 @@ header img{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.hamburguer{
+    display: none;
+}
+
+
 /*DIVS UNIVERSAL-------------------------------------------- */
 
 .universal {
@@ -178,3 +183,50 @@ footer{
 }
 
 
+@media (max-width: 768px) {
+    .lista-header{
+        display: none;
+    }
+    
+    .hamburguer{
+        display: flex;
+        padding: 0.3rem;
+        background: transparent;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    footer{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .universal {
+        flex-direction: column;
+        padding: 3rem 1.5rem;
+        align-items: center;
+    }
+
+    .universal div {
+        width: 90%;
+        height: auto;
+    }
+
+    
+    .div3 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    
+    .div4 {
+        font-size: 1.1rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sessao2 button {
+        width: 100%;
+        max-width: 15rem;
+    }
+}
